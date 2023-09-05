@@ -7,6 +7,7 @@ import FlatListDemo from './pages/FlatListDemo';
 import WifiDemo from './pages/WifiDemo';
 import BlueToothDemo from './pages/BlueToothDemo';
 import HomeScreen from './pages/Home';
+import EchartsDemo from './pages/EchartsDemo';
 
 const Stack = createNativeStackNavigator();
 
@@ -28,6 +29,7 @@ function App() {
         />
         <Stack.Screen name="WifiDemo" component={WifiDemo} />
         <Stack.Screen name="BlueToothDemo" component={BlueToothDemo} />
+        <Stack.Screen name="EchartsDemo" component={EchartsDemo} />
       </Stack.Navigator>
     </NavigationContainer>
   );

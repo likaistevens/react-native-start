@@ -27,6 +27,10 @@ function HomeScreen(props) {
         title="Go to BlueToothDemo"
         onPress={() => props.navigation.navigate('BlueToothDemo')}
       />
+      <Button
+        title="Go to EchartsDemo"
+        onPress={() => props.navigation.navigate('EchartsDemo')}
+      />
     </View>
   );
 }
